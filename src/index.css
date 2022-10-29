@@ -33,7 +33,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    background: linear-gradient(rgb(15, 15, 15), rgb(40, 40, 40), rgb(15, 15, 15));
     color: var(--color-white);
     line-height: 1.7;
 }

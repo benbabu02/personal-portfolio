@@ -11,10 +11,10 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
 
   const changeBackground = () => {
-    console.log('scroll', activeNav, window.scrollY);
+    // console.log('scroll', activeNav, window.scrollY);
 
     if(window.matchMedia("(max-width: 600px)").matches) {
-      console.log('=============== max 600 px ================')
+      // console.log('=============== max 600 px ================')
       if(window.scrollY >= 0 && window.scrollY <= 847) {
         setActiveNav('#');
       } else if (window.scrollY >= 848 && window.scrollY <= 2078) {
@@ -27,7 +27,7 @@ const Nav = () => {
         setActiveNav('#contact');
       }
     } else if (window.matchMedia("(max-width: 1024px)").matches) {
-      console.log('=============== max 1024 px ================')
+      // console.log('=============== max 1024 px ================')
       if(window.scrollY >= 0 && window.scrollY <= 833) {
         setActiveNav('#');
       } else if (window.scrollY >= 834 && window.scrollY <= 1974) {
@@ -40,7 +40,7 @@ const Nav = () => {
         setActiveNav('#contact');
       }
     } else {
-      console.log('=============== else ================')
+      // console.log('=============== else ================')
       if(window.scrollY >= 0 && window.scrollY <= 799) {
         setActiveNav('#');
       } else if (window.scrollY >= 800 && window.scrollY <= 1499) {
