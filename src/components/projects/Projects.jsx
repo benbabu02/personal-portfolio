@@ -19,7 +19,7 @@ const data = [
   {
     id: 2,
     image: IMG2, 
-    title: 'This Website',
+    title: 'Personal Website',
     text: 'this is text',
     github: 'https://github.com/benbabu02/my-website',
   },

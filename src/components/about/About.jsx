@@ -46,7 +46,10 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint a, pariatur repellendus enim ipsam nostrum, assumenda ea tenetur delectus exercitationem temporibus in, quod tempora minima doloribus earum tempore accusamus non.
+            Hey! My name is Benjamin, I am a computer science student at the University of Toronto.
+            I have have been studing computer science since my sophomore year in high school and am
+            quite interested in solving problems with code. In the moments I'm free, I also enjoy
+            playing piano (or drums, depending on the mood), taking photos, and exploring the city!
           </p>
 
           <div className="cta">
