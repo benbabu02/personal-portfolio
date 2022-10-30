@@ -48,10 +48,12 @@
 }
 
 .about__card {
-    background: var(--color-bg-variant);
+    /* background: var(--color-bg-variant); */
+    background: black;
     border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 0.7rem;
+    /* border-radius: 1rem; */
+    border-radius: 0.7rem;
+    padding: 0.05rem;
     text-align: center;
     transition: var(--transition);
 }
@@ -60,6 +62,17 @@
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+}
+
+.about__card-image {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: 400ms;
+}
+.about__card-image:hover {
+    border-radius: 0.5rem;
+    transform: scale(1.5);
+    overflow: hidden;
 }
 
 .about__icon {

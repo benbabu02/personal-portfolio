@@ -10,11 +10,22 @@
 
 :root {
     --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
+    --color-bg-variant: #19568b;
+    /* --color-bg-variant: #e2e4e4; */
+    /* --color-bg-variant: #6C91C2; */
+    /* --color-bg-variant: #011d3b; */
+    /* --color-bg-variant: #1d1e2c; */
+    /* --color-bg-variant: #2b3a67; */
+    /* --color-bg-variant: #3a405a; */
+    /* --color-bg-variant: #0a2239; */
+    /* --color-bg-variant: #2b4570; */
     --color-primary: #4db5ff;
+    /* --color-primary: rgb(35, 35, 35); */
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
+    /* --color-white: rgb(35, 35, 35); */
     --color-light: rgba(255, 255, 255, 0.6);
+    /* --color-light: #373F47; */
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -34,6 +45,9 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(rgb(15, 15, 15), rgb(40, 40, 40), rgb(15, 15, 15));
+    /* background: linear-gradient(rgb(35, 35, 35), rgb(40, 40, 40), rgb(35, 35, 35)); */
+    /* background: #FAF9F6; */
+    /* background: #333333; */
     color: var(--color-white);
     line-height: 1.7;
 }

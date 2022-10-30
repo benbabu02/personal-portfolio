@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/mee-about.jpeg'
 import Resume from '../../assets/cv.pdf'
+import photos from '../contact/Contact'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -26,19 +27,25 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <img src={MP1}/>
+              <div className="about__card-image">
+                <img src={MP1}/>
+              </div>
               {/* <FaAward className='about__icon'/>
               <h5>Experience</h5>
               <small>3+ Years Working</small> */}
             </article>
             <article className='about__card'>
-              <img src={MP2}/> 
+            <div className="about__card-image">
+                <img src={MP2}/>
+              </div>
               {/* <FiUsers className='about__icon'/>
               <h5>Clients</h5>
               <small>200+ Worldwide</small> */}
             </article>
             <article className='about__card'>
-              <img src={MP3}/>
+            <div className="about__card-image">
+                <img src={MP3}/>
+              </div>
               {/* <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
               <small>80+ Completed</small> */}
@@ -46,10 +53,11 @@ const About = () => {
           </div>
 
           <p>
-            Hey! My name is Benjamin, I am a computer science student at the University of Toronto.
-            I have have been studing computer science since my sophomore year in high school and am
-            quite interested in solving problems with code. In the moments I'm free, I also enjoy
-            playing piano (or drums, depending on the mood), taking photos, and exploring the city!
+            Hey! My name is Benjamin, I am a student at the University of Toronto pursuing a degree
+            in computer science. I have been learning about programming since my sophomore year in
+            high school. I am interesting in identifying solutions to complex problems and developing
+            new ideas using code. I spend my leisure time playing piano or drums (depending on the mood),
+            taking photos, and exploring the city.
           </p>
 
           <div className="cta">

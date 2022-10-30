@@ -30,14 +30,14 @@ const data = [
     text: 'this is text',
     github: 'https://github.com/benbabu02/virtual-fitting-room',
   },
-  // {
-  //   id: 4,
-  //   image: IMG4, 
-  //   title: 'Project Name',
-  //   text: 'this is text',
-  //   github: 'https://github.com',
-  //   demo: 'https://github.com'
-  // },
+  {
+    id: 4,
+    image: IMG4, 
+    title: 'Project Name',
+    text: 'this is text',
+    github: 'https://github.com',
+    demo: 'https://github.com'
+  },
   // {
   //   id: 5,
   //   image: IMG5, 
