@@ -10,6 +10,7 @@
 
 :root {
     --color-bg: #1f1f38;
+    /* --color-bg: #e2e4e4; */
     --color-bg-variant: #19568b;
     /* --color-bg-variant: #e2e4e4; */
     /* --color-bg-variant: #6C91C2; */
@@ -45,9 +46,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(rgb(15, 15, 15), rgb(40, 40, 40), rgb(15, 15, 15));
-    /* background: linear-gradient(rgb(35, 35, 35), rgb(40, 40, 40), rgb(35, 35, 35)); */
     /* background: #FAF9F6; */
-    /* background: #333333; */
     color: var(--color-white);
     line-height: 1.7;
 }
