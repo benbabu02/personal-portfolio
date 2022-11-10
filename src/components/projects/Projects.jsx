@@ -33,9 +33,9 @@ const data = [
   {
     id: 4,
     image: IMG4, 
-    title: 'Project Name',
+    title: 'Rock Paper Scissors',
     text: 'this is text',
-    github: 'https://github.com',
+    github: 'https://github.com/benbabu02/rock-paper-scissors',
     demo: 'https://github.com'
   },
   // {
@@ -90,7 +90,6 @@ const Projects = () => {
                   {/* <h5>{text}</h5> */}
                   <div className="projects__item-cta">
                     <a href={github} className='btn' target='_blank'>Github</a>
-                    {/* <a href={demo} className='btn btn-primary' target='_blank'>Demo</a> */}
                   </div>
                 </article>
               )
