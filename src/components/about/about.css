@@ -116,9 +116,18 @@
 
 /* ================ Media Queries (Small Devices) =========== */
 @media screen and (max-width: 600px) {
+    .about__title h2 {
+        margin-top: -10rem;
+        padding: 3rem;
+    }
+
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;
+    }
+
+    .cta {
+        justify-content: center;
     }
 
     .about__title {
@@ -126,8 +135,16 @@
     }
 
     .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.3rem;
+    }
+
+    .about__card:hover {
+        border-color: black;
+    }
+
+    .about__card-image:hover {
+        transform: none;
     }
 
     .about__content {
