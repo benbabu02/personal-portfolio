@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/mee-about.jpeg'
-import Resume from '../../assets/cv.pdf'
+import Resume from '../../assets/Benjamin_Babu_Resume.pdf'
 import MP1 from '../../assets/mp5_new.jpg'
 import MP2 from '../../assets/mp4_new.jpeg'
 import MP3 from '../../assets/mp3_new.jpeg'
@@ -40,16 +40,31 @@ const About = () => {
           </div>
 
           <p>
-            Hey! My name is Benjamin, I am a student at the University of Toronto pursuing a degree
-            in computer science. I have been learning about programming since my sophomore year in
-            high school. I am interesting in identifying solutions to complex problems and developing
-            new ideas using code. I spend my leisure time playing piano or drums (depending on the mood),
-            taking photos, and exploring the city.
+            Hey! My name is Benjamin, I'm a recent computer science graduate from the University
+            at Albany who has a passion for building cool things with code. I've worked on a wide
+            range of projects, from simulating a computer processor in Java to creating interactive
+            games and tools with JavaScript and Python.
+          </p>
+          <p>
+            At UAlbany, I served as the Manager of the IEEE Computer Society, where I helped grow the
+            organization through events, hackathons, and hands-on workshops. I focused on promoting
+            computer science on campus and creating opportunities for students to explore tech,
+            collaborate and build real-world skills.
+          </p>
+          <p>
+            I enjoy solving problems, learning new frameworks, and making tech more creative and
+            accessible. I'm also into photography! I love capturing beautiful and interesting places
+            through a lens.
+          </p>
+          <p>
+            Feel free to check out my résumé or photography page below, or scroll down to see what
+            I've been working on!
           </p>
 
           <div className="cta">
-            {/* <a href={Resume} className='btn' target='_blank'>Résumé</a> */}
-            <a href='#contact' className='btn btn-primary'>Contact Me</a>
+            <a href={Resume} className='btn btn-primary' target='_blank'>Résumé</a>
+            <a href="https://www.instagram.com/bensframed/" className='btn' target='_blank'>Photography Instagram</a>
+            {/* <a href='#contact' className='btn btn-primary'>Contact Me</a> */}
           </div>
         </div>
       </div>
