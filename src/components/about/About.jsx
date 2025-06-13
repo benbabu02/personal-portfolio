@@ -62,7 +62,7 @@ const About = () => {
           </p>
 
           <div className="cta">
-            <a href={Resume} className='btn btn-primary' target='_blank'>Résumé</a>
+            <a href={Resume} className='btn btn-primary' target='_blank'>Resume</a>
             <a href="https://www.instagram.com/bensframed/" className='btn' target='_blank'>Photography Instagram</a>
             {/* <a href='#contact' className='btn btn-primary'>Contact Me</a> */}
           </div>
