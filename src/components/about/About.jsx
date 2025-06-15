@@ -57,7 +57,7 @@ const About = () => {
             through a lens.
           </p>
           <p>
-            Feel free to check out my résumé or photography page below, or scroll down to see what
+            Feel free to check out my resume or photography page below, or scroll down to see what
             I've been working on!
           </p>
 
