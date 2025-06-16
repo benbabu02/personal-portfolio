@@ -9,23 +9,6 @@ import IMG6 from '../../assets/portfolio6.jpg'
 
 const data = [
   {
-    id: 6,
-    image: IMG5, 
-    title: 'Computer Processor Simulator',
-    text: 'Languages: Java',
-    github: 'https://github.com',
-    demo: 'https://github.com'
-
-  },
-  {
-    id: 5,
-    image: IMG5, 
-    title: 'AWK Interpreter',
-    text: 'Languages: Java',
-    github: 'https://github.com',
-    demo: 'https://github.com'
-  },
-  {
     id: 4,
     image: MyWebImg, 
     title: 'Personal Website',
